@@ -10,6 +10,4 @@ services:
     volumes:
       - ./app:/home/node
     ports:
-      - 3000:80
-volumes:
-  db_data:
+      - 3000:3000

@@ -1,2 +1,4 @@
 *.code-workspace
-app/.bash_history
+app/.ash_history
+app/.npm
+app/node_modules
