@@ -1,0 +1,15 @@
+version: '3'
+services:    
+  app:
+    build:
+      context: .
+      args:
+        # On Linux, you may need to update USER_UID and USER_GID below if not your local UID is not 1000.
+        USER_UID: 1000
+        USER_GID: 1000
+    volumes:
+      - ./app:/home/node
+    ports:
+      - 3000:80
+volumes:
+  db_data:
