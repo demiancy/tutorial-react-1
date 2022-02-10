@@ -14,6 +14,18 @@ https://www.youtube.com/watch?v=9DDX3US3kss
 ## App
 React Cryptocurrency App
 
+## Node packages used
+* antd
+* @ant-design/icons
+* react-redux
+* @reduxjs/toolkit
+* axios
+* chart.js
+* html-react-parser
+* millify
+* moment
+* react-chartjs-2
+
 # Deployment
 
 First you have to download the repository 
