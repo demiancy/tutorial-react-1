@@ -25,6 +25,7 @@ React Cryptocurrency App
 * millify
 * moment
 * react-chartjs-2
+* react-router-dom
 
 # Deployment
 
