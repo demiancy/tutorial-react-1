@@ -2,3 +2,4 @@
 app/.ash_history
 app/.npm
 app/node_modules
+app/.env
