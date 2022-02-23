@@ -3,7 +3,7 @@ import React from 'react';
 const Exchanges = () => {
   return (
     <div>
-      Exchanges
+      This functionality needs premium access to the api so I will not implement it.
     </div>
   )
 }

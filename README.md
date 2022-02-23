@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=9DDX3US3kss
 * https://rapidapi.com/
 
 ## Notes
+* The exchanges functionality needs premium access to the api so I will not implement it.
 
 ## App
 React Cryptocurrency App
