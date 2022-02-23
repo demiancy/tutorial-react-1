@@ -19,9 +19,9 @@ const { Option } = Select;
 
 const News = ({ simplified }) => {
   const [newsCategory, setNewsCategory] = useState('Cryptocurrency');
-  const count = simplified ? 6 : 12;
-  const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory, count });
-  const { data: currencies } = useGetCryptosQuery(100);
+  const count                           = simplified ? 6 : 12;
+  const { data: cryptoNews }            = useGetCryptoNewsQuery({ newsCategory, count });
+  const { data: currencies }            = useGetCryptosQuery(100);
 
   if (!cryptoNews?.value) return 'Loading...';
 
